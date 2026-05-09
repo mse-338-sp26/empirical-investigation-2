@@ -158,6 +158,8 @@ os.makedirs(PERSIST_DIR, exist_ok=True)
 
 Any files not in `PERSIST_DIR` will disappear if you lose your session. 
 
+Also remember to make sure you don't train your model in full precision. This slows down training time considerably.
+
 ## AI Use Policy
 
 You may use AI, but we recommend that you limit your usage to optimize your learning. 
